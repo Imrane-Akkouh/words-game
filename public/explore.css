@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+/* #5EEF06 */
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom right,rgb(11, 172, 187) 30%, white 90%); */
+    background-image: url("./images/back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image{
+    width: 100vw;
+    height: 40vh;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    height: 18vh;
+    width: 100vw;
+}
+.name{
+    display:block;
+    width: 40%;
+    margin: 0px auto;
+}
+#buttons{
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 42vh;
+}
+#functions{
+    display: flex;
+    justify-content: space-around;
+}
+#button{
+    justify-self: center;
+    align-self: center;
+}
+#imgTxt{
+    text-align: center;
+    color: white;
+    padding: 0;
+    height: 40vh;
+}
+.text{
+    display: none;
+    opacity: 0;
+}
+.imgTxt-toggle{
+    background-color: black;
+}
+.text-toggle{
+    transition: 2s;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    right: 5vw;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: Sanchez,sans-serif;
+    color: white;
+}
+.image-toggle{
+    transition: 1s;
+    opacity: 0.4;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}

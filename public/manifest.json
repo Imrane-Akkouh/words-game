@@ -1,0 +1,25 @@
+{
+    "short_name": "Words Game",
+    "name": "Words Game",
+    "display": "fullscreen",
+    "Scope": "/",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "images/icon48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "images/icon96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "images/icon192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/index.html"
+  }

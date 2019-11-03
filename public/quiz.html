@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="quiz.css">
+
+        <!-- load font awesome here for icon used on the page -->
+    </head>
+
+    <body>
+        <div id="container">
+            <img class="image" id="animImg" src="" alt="animals">
+            <div class="subcontainer">
+                    <div class="input_icon">
+                            <p type="text" name="answer" id="answer" class="answer">Answer . . .</p>
+                            <a onclick="speakAnimal()"> <img src="./images/Ellipse 1.png" alt="mic"></a>
+                            <audio id="sound" src="chime.mp3"></audio> 
+                        </div>
+            
+                        <div class="score">
+                            <div class="personal_score"><p type="text" class="text_score" >Your Score:</p>
+                                <p type="text" id="score" class="number_score" >0</p>
+                            </div>
+                            <div class="best_score"><p type="text" class="text_score" >High Score:</p>
+                                <p type="text" id="highscore" class="number_score" >30</p>
+                            </div>
+                        </div>
+            
+                        <div id="buttons">
+                            <a href="index.html" class="noSelect" id="button"> <img src="./images/quit.png" alt=""> </a>
+                        </div>
+            </div>
+
+        </div>
+        
+        <script src="quiz.js"></script>
+    </body>
+
+</html>

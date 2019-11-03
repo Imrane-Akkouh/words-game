@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Speech Recognition</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="manifest" href="./manifest.json">
+		<!-- load font awesome here for icon used on the page -->
+	</head>
+
+	<body>
+        <div id="container">
+			<img class="brand" src="./images/animals.png" alt="animals">
+			
+            <a href="explore.html" class="noSelect" ><img class="explore" src="./images/explore.png" alt="Explore"></a>
+            <a href="quiz.html" class="noSelect"><img src="./images/Quiz.png" alt="Quiz"></a>
+            <a href="tutorial.html" class="noSelect"><img class="tutorial" src="./images/Tutorial.png" alt="Tutorial"></a>
+	   
+		</div>
+		<script>
+			window.addEventListener("load",()=>{
+    registerSW();
+});
+async function registerSW(){
+ if('serviceWorker' in navigator){
+     try{
+         await navigator.serviceWorker.register('./sw.js');
+     }catch(e){
+        console.log(e);
+     }
+ }
+};	
+		</script>
+	</body>
+</html>

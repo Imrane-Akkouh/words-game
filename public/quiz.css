@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom right, rgb(11, 172, 187) 30%, white 90%); */
+    background-image: url("./images/back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    orientation: landscape;
+}
+#container{
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+.answer{
+    width: 40vw;
+    height: 80px;
+    margin:0;
+    padding:0;
+}
+.subcontainer{
+    margin:0;
+    padding:0;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.image{
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+#buttons{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-self: center;
+}
+#functions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.answer {
+    background: transparent;
+    border: none;
+    color: white;
+    text-shadow: 0px 0px 4px #5046BF,0px 0px 4px #5046BF,0px 0px 4px #5046BF,0px 0px 4px #5046BF;
+    font-family: "Sanchez",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    color: #921517;
+    text-shadow: 0px 0px 4px aliceblue,0px 0px 4px aliceblue,0px 0px 4px aliceblue,0px 0px 4px aliceblue;
+}
+
+.personal_score,
+.best_score{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_score{
+    font-family: Sanchez,sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding:0;
+    margin: 0;
+}
+
+.number_score{
+    font-family: Sanchez,sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    padding:0;
+    margin: 0;
+}
+#button{
+    align-self: center;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}

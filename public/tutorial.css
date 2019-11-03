@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(11, 172, 187) 30%, white 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* video{
+    width: 100vw;
+    height: 60vh;
+} */
+.container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#button{
+    margin: 0;
+    padding: 0;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Explore</title>
+		<link rel="stylesheet" href="explore.css">
+	</head>
+
+	<body>
+        <div id="container">
+			<div class="" id="imgTxt" onclick="toggle()">
+				<img class="image" id="animImg" src="" alt="animals"/>
+				<p class="text" id="facts"></p>
+			</div>
+			
+			
+			
+			<div class="images">
+
+				<a onclick="back()"><img class="back" src="./images/back.png" alt="previous"></a>
+				<img class="name" id="spelling" src="" alt="spelling">
+				<a onclick="forth()"> <img class="forth" src="./images/forward.png" alt="next"></a>
+
+			</div>
+		</div>
+		<div id="buttons">
+			<div id="functions">
+				<a onclick="speakAnimal()"> <img src="./images/Ellipse 1.png" alt=""> </a>
+				<audio id="sound" src="chime.mp3"></audio>
+				<a onclick="listenAnimal()"> <img src="./images/Ellipse 2.png" alt=""> </a>
+			</div>
+			<a href="index.html" class="noSelect" id="button"> <img src="./images/quit.png" alt=""> </a>
+		</div>
+		<script src="explore.js"></script>
+	</body>
+</html>
